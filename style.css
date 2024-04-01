@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    background-color: black;
+    height: 100px;
+    padding-top: 35px;
+}
+
+.header-flex{
+    display: flex;
+    justify-content: space-between;
+}
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.header-flex ul{
+    color: azure;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+    font-size: 20px
+}
+.header-flex li{
+    transition: 0.5s ;
+}
+.header-flex ul li:hover{
+    color: darkblue;
+    cursor: pointer;
+    font-size: 30px;
+    transition: 0.5s;
+}
